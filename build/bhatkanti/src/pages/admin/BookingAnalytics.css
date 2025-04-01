@@ -1,0 +1,15 @@
+.chart-container {
+  height: 300px;
+  position: relative;
+}
+
+.chart-placeholder {
+  height: 100%;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.progress {
+  border-radius: 4px;
+  background-color: #f0f0f0;
+}

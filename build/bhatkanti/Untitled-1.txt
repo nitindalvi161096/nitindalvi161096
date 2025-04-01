@@ -1,0 +1,19 @@
+bhatkanti/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── admin/
+│   │   │   ├── AdminLayout.js
+│   │   │   └── AdminLayout.css
+│   │   └── ... (other components)
+│   ├── pages/
+│   │   ├── admin/
+│   │   │   ├── Dashboard.js
+│   │   │   ├── Dashboard.css
+│   │   │   ├── PackageManagement.js
+│   │   │   ├── BookingAnalytics.js
+│   │   │   └── ... (other admin pages)
+│   │   └── ... (user pages)
+│   ├── App.js
+│   └── index.js
+└── package.json

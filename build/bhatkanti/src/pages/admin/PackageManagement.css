@@ -1,0 +1,13 @@
+.table th {
+  font-weight: 600;
+  background-color: #f8f9fa;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.badge {
+  padding: 6px 10px;
+  font-weight: 500;
+}

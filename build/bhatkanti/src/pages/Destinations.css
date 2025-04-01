@@ -1,0 +1,42 @@
+.destinations-page {
+  background-color: #f8f9fa;
+}
+
+.destination-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.region-card {
+  transition: transform 0.3s ease;
+}
+
+.region-card:hover {
+  transform: scale(1.03);
+}
+
+.blog-card {
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.opacity-40 {
+  opacity: 0.4;
+}
+
+@media (max-width: 767.98px) {
+  .search-filter-container {
+    flex-direction: column;
+  }
+  
+  .region-filter {
+    max-width: 100% !important;
+  }
+}

@@ -1,0 +1,50 @@
+.activities-page {
+  background-color: #f8f9fa;
+}
+
+.filter-card {
+  position: sticky;
+  top: 100px;
+}
+
+.activity-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.category-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.category-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #f8f9fa;
+}
+
+.destination-card {
+  transition: transform 0.3s ease;
+}
+
+.destination-card:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 991.98px) {
+  .filter-card {
+    position: static;
+  }
+}
